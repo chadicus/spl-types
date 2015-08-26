@@ -1,11 +1,11 @@
 #Chadicus\Spl\Types
-[![Build Status](http://img.shields.io/travis/chadicus/types-php.svg?style=flat)](https://travis-ci.org/chadicus/types-php)
-[![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/types-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/types-php/)
-[![Code Coverage](http://img.shields.io/coveralls/chadicus/types-php.svg?style=flat)](https://coveralls.io/r/chadicus/types-php)
-[![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/types.svg?style=flat)](https://packagist.org/packages/chadicus/types)
-[![Total Downloads](http://img.shields.io/packagist/dt/chadicus/types.svg?style=flat)](https://packagist.org/packages/chadicus/types)
-[![License](http://img.shields.io/packagist/l/chadicus/types.svg?style=flat)](https://packagist.org/packages/chadicus/types)
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/types-php) 
+[![Build Status](http://img.shields.io/travis/chadicus/spl-types-php.svg?style=flat)](https://travis-ci.org/chadicus/spl-types-php)
+[![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-types-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-types-php/)
+[![Code Coverage](http://img.shields.io/coveralls/chadicus/spl-types-php.svg?style=flat)](https://coveralls.io/r/chadicus/spl-types-php)
+[![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
+[![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
+[![License](http://img.shields.io/packagist/l/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-types-php)
 
 A collection of classes which provide various typehandling.
 
@@ -20,15 +20,15 @@ To add the library as a local, per-project dependency use [Composer](http://getc
 ```json
 {
     "require": {
-        "chadicus/types": "dev-master"
+        "chadicus/spl-types": "dev-master"
     }
 }
 ```
 ##Contact
 Developers may be contacted at:
 
- * [Pull Requests](https://github.com/chadicus/types-php/pulls)
- * [Issues](https://github.com/chadicus/types-php/issues)
+ * [Pull Requests](https://github.com/chadicus/spl-types-php/pulls)
+ * [Issues](https://github.com/chadicus/spl-types-php/issues)
 
 ##Project Build
 With a checkout of the code get [Composer](http://getcomposer.org) in your PATH and run:
