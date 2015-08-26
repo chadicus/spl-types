@@ -1,7 +1,7 @@
 #Chadicus\Spl\Types
 [![Build Status](http://img.shields.io/travis/chadicus/spl-types-php.svg?style=flat)](https://travis-ci.org/chadicus/spl-types-php)
 [![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-types-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-types-php/)
-[![Code Coverage](http://img.shields.io/coveralls/chadicus/spl-types-php.svg?style=flat)](https://coveralls.io/r/chadicus/spl-types-php)
+[![Code Coverage](https://coveralls.io/repos/chadicus/spl-types-php/badge.svg?branch=master&service=github)](https://coveralls.io/github/chadicus/spl-types-php?branch=master)
 [![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
