@@ -20,7 +20,7 @@ To add the library as a local, per-project dependency use [Composer](http://getc
 ```json
 {
     "require": {
-        "chadicus/spl-types": "dev-master"
+        "chadicus/spl-types": "~1.0"
     }
 }
 ```
