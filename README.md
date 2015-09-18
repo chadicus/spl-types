@@ -5,7 +5,7 @@
 [![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
 [![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
 [![License](http://img.shields.io/packagist/l/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://chadicus.github.io/spl-types-php)
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholiophp.org/chadicus/spl-types)
 
 A collection of classes which provide various typehandling.
 
