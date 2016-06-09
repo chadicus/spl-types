@@ -52,4 +52,22 @@ abstract class AbstractEnum
 
         throw new \UnexpectedValueException("'{$name}' is not a valid {$class}");
     }
+
+    /**
+     * Returns an array of all enums.
+     *
+     * @return AbstractEnum[]
+     */
+    public static function all()
+    {
+        static $all = null;
+
+        if ($all === null) {
+            foreach ((new \ReflectionClass(get_called_class()))->getConstants() as $constant) {
+                $all[] = new static($constant);
+            }
+        }
+
+        return $all;
+    }
 }

@@ -39,4 +39,20 @@ final class AbstractEnumTests extends \PHPUnit_Framework_TestCase
     {
         SimpleEnum::Invalid();
     }
+
+    /**
+     * Verify basic behavior of all().
+     *
+     * @test
+     * @covers ::all
+     *
+     * @return void
+     */
+    public function all()
+    {
+        $all = SimpleEnum::all();
+        $this->assertCount(2, $all);
+        $this->assertSame(SimpleEnum::FOO, (string)$all[0]);
+        $this->assertSame(SimpleEnum::BAR, (string)$all[1]);
+    }
 }
