@@ -15,7 +15,7 @@ A collection of classes which provide various typehandling.
 
 ## Requirements
 
-Chadicus\Spl\Types requires PHP 5.4 (or later).
+Chadicus\Spl\Types requires PHP 5.6 (or later).
 
 ##Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on
