@@ -58,7 +58,7 @@ abstract class AbstractEnum
      *
      * @return AbstractEnum[]
      */
-    public static function all()
+    final public static function all()
     {
         static $all = null;
 
