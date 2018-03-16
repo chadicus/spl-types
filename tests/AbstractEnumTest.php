@@ -2,6 +2,7 @@
 namespace ChadicusTest\Spl\Types;
 
 use Chadicus\Spl\Types\AbstractEnum;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Unit tests for the Chadicus\Spl\Types\AbstractEnum class.
@@ -9,7 +10,7 @@ use Chadicus\Spl\Types\AbstractEnum;
  * @coversDefaultClass \Chadicus\Spl\Types\AbstractEnum
  * @covers ::<private>
  */
-final class AbstractEnumTests extends \PHPUnit_Framework_TestCase
+final class AbstractEnumTests extends TestCase
 {
     /**
      * Verify basic behavior of __callStatic.
@@ -37,7 +38,7 @@ final class AbstractEnumTests extends \PHPUnit_Framework_TestCase
      */
     public function badConstant()
     {
-        SimpleEnum::Invalid();
+        /** @scrutinizer ignore-call */ SimpleEnum::Invalid();
     }
 
     /**

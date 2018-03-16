@@ -18,7 +18,7 @@ abstract class AbstractEnum
      *
      * @param string $value The string value of the enum.
      */
-    final private function __construct($value)
+    final private function __construct(string $value)
     {
         $this->value = strtolower($value);
     }
@@ -28,7 +28,7 @@ abstract class AbstractEnum
      *
      * @return string
      */
-    final public function __toString()
+    final public function __toString() : string
     {
         return $this->value;
     }
@@ -43,7 +43,7 @@ abstract class AbstractEnum
      *
      * @throws \UnexpectedValueException Thrown if $name is not a defined Enum constant.
      */
-    final public static function __callStatic($name, array $arguments)
+    final public static function __callStatic(string $name, /** @scrutinizer ignore-unused */array $arguments) : self
     {
         $class = get_called_class();
         if (defined("{$class}::" . strtoupper($name))) {
@@ -58,7 +58,7 @@ abstract class AbstractEnum
      *
      * @return AbstractEnum[]
      */
-    final public static function all()
+    final public static function all() : array
     {
         static $all = null;
 
