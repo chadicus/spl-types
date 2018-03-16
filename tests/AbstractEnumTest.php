@@ -38,7 +38,7 @@ final class AbstractEnumTests extends TestCase
      */
     public function badConstant()
     {
-        SimpleEnum::Invalid();
+        /** @scrutinizer ignore-call */ SimpleEnum::Invalid();
     }
 
     /**

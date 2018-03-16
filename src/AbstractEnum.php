@@ -43,7 +43,7 @@ abstract class AbstractEnum
      *
      * @throws \UnexpectedValueException Thrown if $name is not a defined Enum constant.
      */
-    final public static function __callStatic($name, array $arguments)
+    final public static function __callStatic($name, /** @scrutinizer ignore-unused */array $arguments)
     {
         $class = get_called_class();
         if (defined("{$class}::" . strtoupper($name))) {
