@@ -3,7 +3,10 @@
 namespace ChadicusTest\Spl\Types;
 
 /**
- * Test enum implementation
+ * Test AbstractEnum implementation.
+ *
+ * @method static SimpleEnum FOO()
+ * @method static SimpleEnum BAR()
  */
 class SimpleEnum extends \Chadicus\Spl\Types\AbstractEnum
 {
