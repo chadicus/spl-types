@@ -2,14 +2,6 @@
     "name": "chadicus/spl-types",
     "description": "A collection of classes which provide various typehandling.",
     "keywords": ["spl", "types", "enum"],
-    "authors": [
-        {
-            "name": "Chad Gray",
-            "email": "chadwickgray@gmail.com",
-            "homepage": "http://chadicus.org",
-            "role": "Developer"
-        }
-    ],
     "license": "MIT",
     "config": {
         "sort-packages": true
