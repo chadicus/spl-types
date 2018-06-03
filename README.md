@@ -1,41 +1,42 @@
-#Chadicus\Spl\Types
-[![Build Status](https://travis-ci.org/chadicus/spl-types-php.svg?branch=master)](https://travis-ci.org/chadicus/spl-types-php)
-[![Code Quality](http://img.shields.io/scrutinizer/g/chadicus/spl-types-php.svg?style=flat)](https://scrutinizer-ci.com/g/chadicus/spl-types-php/)
-[![Code Coverage](https://coveralls.io/repos/chadicus/spl-types-php/badge.svg?branch=master&service=github)](https://coveralls.io/github/chadicus/spl-types-php?branch=master)
+# SubjectivePHP\Spl\Types
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
-[![Total Downloads](http://img.shields.io/packagist/dt/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
-[![License](http://img.shields.io/packagist/l/chadicus/spl-types.svg?style=flat)](https://packagist.org/packages/chadicus/spl-types)
+[![Build Status](https://travis-ci.org/subjective-php/spl-types.svg?branch=master)](https://travis-ci.org/subjective-php/spl-types)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/subjective-php/spl-types/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/subjective-php/spl-types/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/subjective-php/spl-types/badge.svg?branch=master)](https://coveralls.io/github/subjective-php/spl-types?branch=master)
 
-[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://pholiophp.org/chadicus/spl-types)
+[![Latest Stable Version](https://poser.pugx.org/subjective-php/spl-types/v/stable)](https://packagist.org/packages/subjective-php/spl-types)
+[![Latest Unstable Version](https://poser.pugx.org/subjective-php/spl-types/v/unstable)](https://packagist.org/packages/subjective-php/spl-types)
+[![License](https://poser.pugx.org/subjective-php/spl-types/license)](https://packagist.org/packages/subjective-php/spl-types)
+
+[![Total Downloads](https://poser.pugx.org/subjective-php/spl-types/downloads)](https://packagist.org/packages/subjective-php/spl-types)
+[![Daily Downloads](https://poser.pugx.org/subjective-php/spl-types/d/daily)](https://packagist.org/packages/subjective-php/spl-types)
+[![Monthly Downloads](https://poser.pugx.org/subjective-php/spl-types/d/monthly)](https://packagist.org/packages/subjective-php/spl-types)
+
+[![Documentation](https://img.shields.io/badge/reference-phpdoc-blue.svg?style=flat)](http://www.pholiophp.org/subjective-php/spl-types)
 
 A collection of classes which provide various typehandling.
 
 ## Requirements
 
-Chadicus\Spl\Types requires PHP 5.6 (or later).
+Chadicus\Spl\DataStructures requires PHP 7.0 (or later).
 
-##Composer
+## Composer
 To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on
-`chadicus/filter` to your project's `composer.json` file such as:
-
-```json
-{
-    "require": {
-        "chadicus/spl-types": "~1.0"
-    }
-}
+`subjective-php/spl-types` to your project's `composer.json` file such as:
+```sh
+composer require subjective-php/spl-types
 ```
-##Contact
+## Contact
 Developers may be contacted at:
 
- * [Pull Requests](https://github.com/chadicus/spl-types-php/pulls)
- * [Issues](https://github.com/chadicus/spl-types-php/issues)
+ * [Pull Requests](https://github.com/subjective-php/spl-types/pulls)
+ * [Issues](https://github.com/subjective-php/spl-types/issues)
 
-##Project Build
+## Project Build
 With a checkout of the code get [Composer](http://getcomposer.org) in your PATH and run:
 
 ```sh
 composer install
 ./vendor/bin/phpunit
+./vendor/bin/phpcs
 ```
