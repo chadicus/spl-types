@@ -1,5 +1,5 @@
 <?php
-namespace Chadicus\Spl\Types;
+namespace SubjectivePHP\Spl\Types;
 
 /**
  * Defines the base AbstractEnum class.

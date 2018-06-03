@@ -1,13 +1,13 @@
 <?php
-namespace ChadicusTest\Spl\Types;
+namespace SubjectivePHPTest\Spl\Types;
 
-use Chadicus\Spl\Types\AbstractEnum;
+use SubjectivePHP\Spl\Types\AbstractEnum;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for the Chadicus\Spl\Types\AbstractEnum class.
+ * Unit tests for the SubjectivePHP\Spl\Types\AbstractEnum class.
  *
- * @coversDefaultClass \Chadicus\Spl\Types\AbstractEnum
+ * @coversDefaultClass \SubjectivePHP\Spl\Types\AbstractEnum
  * @covers ::<private>
  */
 final class AbstractEnumTests extends TestCase
@@ -32,7 +32,7 @@ final class AbstractEnumTests extends TestCase
      * @test
      * @covers ::__callStatic
      * @expectedException \UnexpectedValueException
-     * @expectedExceptionMessage 'Invalid' is not a valid ChadicusTest\Spl\Types\SimpleEnum
+     * @expectedExceptionMessage 'Invalid' is not a valid SubjectivePHPTest\Spl\Types\SimpleEnum
      *
      * @return void
      */

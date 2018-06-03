@@ -1,6 +1,6 @@
 <?php
 
-namespace ChadicusTest\Spl\Types;
+namespace SubjectivePHPTest\Spl\Types;
 
 /**
  * Test AbstractEnum implementation.
@@ -8,7 +8,7 @@ namespace ChadicusTest\Spl\Types;
  * @method static SimpleEnum FOO()
  * @method static SimpleEnum BAR()
  */
-class SimpleEnum extends \Chadicus\Spl\Types\AbstractEnum
+class SimpleEnum extends \SubjectivePHP\Spl\Types\AbstractEnum
 {
     const FOO = 'foo';
     const BAR = 'bar';

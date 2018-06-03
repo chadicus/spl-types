@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/spl-types",
+    "name": "subjective-php/spl-types",
     "description": "A collection of classes which provide various typehandling.",
     "keywords": ["spl", "types", "enum"],
     "license": "MIT",
@@ -15,9 +15,9 @@
         "squizlabs/php_codesniffer": "^3.2"
     },
     "autoload": {
-        "psr-4": { "Chadicus\\Spl\\Types\\": "src" }
+        "psr-4": { "SubjectivePHP\\Spl\\Types\\": "src" }
     },
     "autoload-dev": {
-        "psr-4": { "ChadicusTest\\Spl\\Types\\": "tests" }
+        "psr-4": { "SubjectivePHPTest\\Spl\\Types\\": "tests" }
     }
 }
